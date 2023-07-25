@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PartyRoleInvolvedWith" directorySegmentName="seg_0" id="B427C447-2992-A357-74B1-D740165F7F36">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-25 17:42:13 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F72615A6-5FB4-4C33-712C-B609872119BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE9BC841-E1CE-1D2C-074D-D471BA5A41EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
