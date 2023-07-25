@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="CE9BC841-E1CE-1D2C-074D-D471BA5A41EC" name="PartyRoleAssociation" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BC2FF802-11DD-F332-77D1-6DA52A9ECAB9" name="Party" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EA53BF9B-F746-FBB0-8985-E0E392BCFF30" name="Organization" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F72615A6-5FB4-4C33-712C-B609872119BD" name="PartyRole" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4CA40F84-7FA8-13AD-1371-A7E16BC6F770" name="Individual" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7EF2644A-22AF-C328-F9F4-0512A5F0A1CD" name="Customer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EEA684C5-F148-146A-2D06-85BF6560FB60" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
