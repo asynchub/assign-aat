@@ -11,7 +11,115 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>BC2FF802-11DD-F332-77D1-6DA52A9ECAB9</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="organization_id" id="A7690A22-D2F4-CAFF-CCA5-2EB6DB7458D3">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:30:36 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validFor" id="E8198779-B8D6-C6BD-9F39-173B3F1232C1">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:31:31 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isLegalEntity" id="A533D454-C7CD-C588-1895-1CFC89FD2681">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:33:07 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="legalPeriod" id="883FE99D-F8BE-F4B3-1100-A7ACAD7BB97A">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:33:31 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="organizationName" id="24B4E145-D4F6-9EBA-0D83-9CFD333DD19D">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:31:04 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="E4FBD210-CAAC-686F-9896-4422B86048AE">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:34:21 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="industry" id="385F0D82-F6CD-ACAE-B43E-9E73E711584E">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:35:53 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>B76CFF1A-3E63-0F9C-67A0-9642B74F847F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E598DD7E-496F-6480-32E7-45952CBB2746" name="Organization_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:51:43 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A7690A22-D2F4-CAFF-CCA5-2EB6DB7458D3</newElementsIDs>
+<usedAttributes>
+<attributeRef>A7690A22-D2F4-CAFF-CCA5-2EB6DB7458D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

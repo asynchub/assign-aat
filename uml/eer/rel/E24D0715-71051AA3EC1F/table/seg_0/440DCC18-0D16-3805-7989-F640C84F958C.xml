@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="440DCC18-0D16-3805-7989-F640C84F958C" name="Organization">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>EA53BF9B-F746-FBB0-8985-E0E392BCFF30</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DD152A91-80E7-F685-A564-281E28C52C62">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F6569F-7926-5136-3017-2824C637E902" referredColumn="38B048CD-82BF-B3BA-7643-86B4CFBEDD72"/>
+</associations>
+</Column>
+<Column name="organization_id" id="62FC1EB1-DE34-4CDC-74BF-82C75E14A8F5">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>A7690A22-D2F4-CAFF-CCA5-2EB6DB7458D3</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validFor" id="32C9A448-255D-9FD0-C8FC-52209611E986">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>E8198779-B8D6-C6BD-9F39-173B3F1232C1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isLegalEntity" id="18113127-89D2-F470-DD60-9A3B8A6015EA">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>A533D454-C7CD-C588-1895-1CFC89FD2681</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="legalPeriod" id="C21A18C5-001A-8AE0-62A7-0A7D6E5CAEA8">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>883FE99D-F8BE-F4B3-1100-A7ACAD7BB97A</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizationName" id="C15F7CBC-B361-5CA9-3589-37A14008A541">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>24B4E145-D4F6-9EBA-0D83-9CFD333DD19D</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="BD1B3643-8AEE-85EA-FED0-09938BC98A14">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>E4FBD210-CAAC-686F-9896-4422B86048AE</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="industry" id="257AD7E7-B7FA-4F73-2FE6-BAB091C0178F">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>385F0D82-F6CD-ACAE-B43E-9E73E711584E</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>B76CFF1A-3E63-0F9C-67A0-9642B74F847F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96CB3AE3-5A9F-F9C7-0778-9964D4701E7E" name="Organization_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>99A399F3-7570-4C46-DB75-86A4EA4CD745</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD152A91-80E7-F685-A564-281E28C52C62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B176816-0744-21B0-FA27-35D7BFC8D348" name="Organization_organization_id_UN">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>E598DD7E-496F-6480-32E7-45952CBB2746</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FC1EB1-DE34-4CDC-74BF-82C75E14A8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ECB3E15-CD02-7925-CD17-1952DB7C59BB" name="Organization_PKv1">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>508B449C-19A0-3EFB-958C-42D342571FE3</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FC1EB1-DE34-4CDC-74BF-82C75E14A8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B181BB2B-B851-7DF7-286A-1F0041D4E544" name="Organization_Party_FK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>2B29545B-890E-90C5-056E-548ED4AF5AA3</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD152A91-80E7-F685-A564-281E28C52C62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

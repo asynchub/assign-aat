@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:01:15 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validFor" id="0B8659BC-149B-0E2B-FCA8-BB5D04F7AAC9">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:01:44 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99A399F3-7570-4C46-DB75-86A4EA4CD745" name="Party_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 10:02:11 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF</newElementsIDs>
+<usedAttributes>
+<attributeRef>D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

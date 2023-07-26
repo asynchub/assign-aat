@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE3BE302-DA10-5F61-B47A-6B99CC1F576D" name="PartyRole">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>F72615A6-5FB4-4C33-712C-B609872119BD</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8C4CD6A4-3FB1-41B6-6678-A06A0DCDB37C">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>425F2786-B912-2CF3-EF37-B3A2D4547849</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party_ID" id="D34C7641-50DF-7B2B-F459-A0E49E2F199B">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>17BDCB26-57C3-2F90-DFAE-763A1E39EDE2</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13E8E67D-1F0D-506B-3E8B-6FEAB4ED41CB" referredColumn="38B048CD-82BF-B3BA-7643-86B4CFBEDD72"/>
+</associations>
+</Column>
+<Column name="status" id="5FEA6FA9-0256-DE09-451B-12F3683DDD19">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>90100104-1B7E-B33B-1596-F63DB284E361</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validFor" id="3F8F9C09-E598-6DA6-E72C-225B8F2B0C68">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>15C31429-A94C-16DC-7734-466D07A810C0</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="6DC3E6A0-6B28-AFEA-C99D-4CFD909866DA">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>E5B8CB66-B50C-C1EB-A7CB-A9C5767CE3C1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F1DBD73-F14A-F3F7-C75D-F68E47BEFD72" name="PartyRole_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>07E60224-BED0-ED16-024E-70D7E907304E</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C4CD6A4-3FB1-41B6-6678-A06A0DCDB37C"/>
+<colUsage columnID="D34C7641-50DF-7B2B-F459-A0E49E2F199B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20DF3EFD-5915-3649-8B28-9D0221104A90" name="PartyRole_Party_FK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<generatorID>CEB86ACB-5067-8DCD-A829-52F56D0BA5A1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34C7641-50DF-7B2B-F459-A0E49E2F199B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
