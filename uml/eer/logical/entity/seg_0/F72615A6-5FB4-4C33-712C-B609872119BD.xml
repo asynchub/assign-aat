@@ -22,11 +22,11 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="status" id="90100104-1B7E-B33B-1596-F63DB284E361">
 <createdBy>jural</createdBy>
@@ -35,11 +35,11 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="validFor" id="15C31429-A94C-16DC-7734-466D07A810C0">
 <createdBy>jural</createdBy>
@@ -48,10 +48,10 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="E5B8CB66-B50C-C1EB-A7CB-A9C5767CE3C1">
@@ -61,11 +61,41 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1EC854A8-3284-9470-CA9A-678F1F349281">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 13:08:29 UTC</createdTime>
+<generatorID>7F85946C-6342-5908-0688-05F8B620B0A1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<referedAttribute>D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07E60224-BED0-ED16-024E-70D7E907304E" name="PartyRole_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-25 20:29:17 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>425F2786-B912-2CF3-EF37-B3A2D4547849</newElementsIDs>
+<usedAttributes>
+<attributeRef>425F2786-B912-2CF3-EF37-B3A2D4547849</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

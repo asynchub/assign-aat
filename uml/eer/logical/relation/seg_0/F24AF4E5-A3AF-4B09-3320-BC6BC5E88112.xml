@@ -1,12 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PartyRoleInvolves" directorySegmentName="seg_0" id="D9D45B0F-0C20-FD55-8F57-FBFF28393483">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PartyRoleInvolves" directorySegmentName="seg_0" id="F24AF4E5-A3AF-4B09-3320-BC6BC5E88112">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-25 17:44:02 UTC</createdTime>
+<createdTime>2023-07-26 13:03:34 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<identifying>true</identifying>
+<sourcePk>07E60224-BED0-ED16-024E-70D7E907304E</sourcePk>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

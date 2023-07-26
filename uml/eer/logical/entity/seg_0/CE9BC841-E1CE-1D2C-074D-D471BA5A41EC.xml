@@ -15,6 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0479BA41-FA63-2FEB-C5F2-9321169A1DD6">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 12:58:54 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="associationType" id="DC22FD19-441B-A341-9F3C-A76B9BE9958B">
 <createdBy>jural</createdBy>
 <createdTime>2023-07-25 17:04:27 UTC</createdTime>
@@ -22,11 +35,11 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="status" id="7E1916DD-1E95-46C8-32E6-37B0FC5605F8">
 <createdBy>jural</createdBy>
@@ -35,11 +48,11 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="validFor" id="C1E17521-4A68-CF4D-1A76-9DFF50697849">
 <createdBy>jural</createdBy>
@@ -48,11 +61,56 @@
 <engineerTo>
 <item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F15E7929-4BCD-DD6E-A3A9-ABFBE9398A8A">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 13:03:34 UTC</createdTime>
+<generatorID>F24AF4E5-A3AF-4B09-3320-BC6BC5E88112</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<referedAttribute>425F2786-B912-2CF3-EF37-B3A2D4547849</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="2F87E4C8-0598-1C83-5601-75D3CBCFC821">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 13:04:44 UTC</createdTime>
+<generatorID>607DB0A3-C904-DFA3-272F-1C65B0EBA1FB</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<referedAttribute>425F2786-B912-2CF3-EF37-B3A2D4547849</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A0B82AB-0F80-53E5-5824-2CBFA9F87D76" name="PartyAssociation_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-26 12:59:29 UTC</createdTime>
+<ownerDesignName>eer</ownerDesignName>
+<engineerTo>
+<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0479BA41-FA63-2FEB-C5F2-9321169A1DD6</newElementsIDs>
+<usedAttributes>
+<attributeRef>0479BA41-FA63-2FEB-C5F2-9321169A1DD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
