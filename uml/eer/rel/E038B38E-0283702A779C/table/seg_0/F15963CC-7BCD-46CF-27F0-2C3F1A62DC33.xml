@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F15963CC-7BCD-46CF-27F0-2C3F1A62DC33" name="Customer">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>7EF2644A-22AF-C328-F9F4-0512A5F0A1CD</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="874CD4D5-3731-EB13-8FEC-649930942E79">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>425F2786-B912-2CF3-EF37-B3A2D4547849</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C52F8507-5CE7-7F02-8793-AE2ABBFC30E4" referredColumn="87699103-C898-239E-4048-F64F78DFD236"/>
+</associations>
+</Column>
+<Column name="customer_id" id="28DBE7BD-9FA2-54A4-8A7E-7BD926273016">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>E048FF57-F4CB-FF4B-0533-1DD311467FDE</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customerRank" id="E105E096-37D2-9D42-4A79-E901F10269B4">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>D99AC437-7FAE-3116-8654-55C352673956</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11F5FA85-ECC3-8E53-78BA-0F37C2295723" name="Customer_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>07E60224-BED0-ED16-024E-70D7E907304E</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="874CD4D5-3731-EB13-8FEC-649930942E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57A20A21-5655-4679-BA89-7488D809AFF8" name="Customer_PKv1">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>0C440610-4194-E45F-AEC4-9D8F5F99F1A0</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28DBE7BD-9FA2-54A4-8A7E-7BD926273016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1CE6F7C-33F4-8CF3-6BB9-3A0BFA62C0DE" name="Customer_PartyRole_FK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>B9C5D450-C4C4-D87F-7533-F51F77879E6E</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="874CD4D5-3731-EB13-8FEC-649930942E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

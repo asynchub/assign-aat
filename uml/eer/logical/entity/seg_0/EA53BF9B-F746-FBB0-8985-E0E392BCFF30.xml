@@ -4,7 +4,7 @@
 <createdTime>2023-07-25 17:21:40 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2023-07-26 10:30:36 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,24 +29,12 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="validFor" id="E8198779-B8D6-C6BD-9F39-173B3F1232C1">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 10:31:31 UTC</createdTime>
-<ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="isLegalEntity" id="A533D454-C7CD-C588-1895-1CFC89FD2681">
 <createdBy>jural</createdBy>
 <createdTime>2023-07-26 10:33:07 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +46,7 @@
 <createdTime>2023-07-26 10:33:31 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -71,7 +59,7 @@
 <createdTime>2023-07-26 10:31:04 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,7 +72,7 @@
 <createdTime>2023-07-26 10:34:21 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,7 +86,7 @@
 <createdTime>2023-07-26 10:35:53 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -113,7 +101,7 @@
 <createdTime>2023-07-26 10:51:43 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>A7690A22-D2F4-CAFF-CCA5-2EB6DB7458D3</newElementsIDs>
