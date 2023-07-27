@@ -3,9 +3,6 @@
 <createdBy>jural</createdBy>
 <createdTime>2023-07-25 17:21:06 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,47 +17,16 @@
 <createdBy>jural</createdBy>
 <createdTime>2023-07-26 10:46:06 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status" id="DE0076B2-3CAF-11FF-196B-3BB313E83541">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 10:46:33 UTC</createdTime>
-<ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="validFor" id="589794F0-F804-DE6B-1C59-4534D348F315">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 10:47:56 UTC</createdTime>
-<ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="customerRank" id="D99AC437-7FAE-3116-8654-55C352673956">
 <createdBy>jural</createdBy>
 <createdTime>2023-07-26 11:04:02 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -73,9 +39,6 @@
 <createdBy>jural</createdBy>
 <createdTime>2023-07-26 10:48:48 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <newElementsIDs>E048FF57-F4CB-FF4B-0533-1DD311467FDE</newElementsIDs>
 <usedAttributes>

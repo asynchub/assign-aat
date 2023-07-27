@@ -4,7 +4,7 @@
 <createdTime>2023-07-25 17:21:59 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2023-07-26 09:47:32 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,25 +29,12 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="validFor" id="7C6E4D22-5A1E-E394-D130-A1AE3E57C39C">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 10:13:00 UTC</createdTime>
-<ownerDesignName>eer</ownerDesignName>
-<engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="firstName" id="7A3E4224-09C5-6A3E-3A26-BB39F70D5D78">
 <createdBy>jural</createdBy>
 <createdTime>2023-07-26 10:14:03 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,7 +47,7 @@
 <createdTime>2023-07-26 10:16:08 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +60,7 @@
 <createdTime>2023-07-26 10:16:40 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,7 +73,7 @@
 <createdTime>2023-07-26 10:16:57 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -99,7 +86,7 @@
 <createdTime>2023-07-26 10:22:13 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -112,7 +99,7 @@
 <createdTime>2023-07-26 10:24:52 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -125,7 +112,7 @@
 <createdTime>2023-07-26 10:58:03 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -140,7 +127,7 @@
 <createdTime>2023-07-26 12:09:54 UTC</createdTime>
 <ownerDesignName>eer</ownerDesignName>
 <engineerTo>
-<item key="E24D0715-4250-9201-6DFD-71051AA3EC1F" value="true"/>
+<item key="6CE9073D-82CA-9CFF-68D6-A7B3EF5F580F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>3E545218-3471-8347-943F-B806F259154F</newElementsIDs>

@@ -1,95 +1,91 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50C397CB-43C4-E16F-7F4C-9D85F4D34B91" name="Individual">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF5889F8-C53D-2270-8447-99BF7E54940E" name="Individual">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>4CA40F84-7FA8-13AD-1371-A7E16BC6F770</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="6DB4BB44-262F-B6FE-1903-CF4477C07977">
+<Column name="ID" id="AF1635D1-3332-E6EE-274A-C3847996C814">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>D0F81054-2B69-23A5-FE7B-0EFD0CCC79BF</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="74FE076D-FA96-5C61-1993-A002FEF15BE3" referredColumn="38B048CD-82BF-B3BA-7643-86B4CFBEDD72"/>
+<colAssociation fkAssociation="A3AA2A56-707C-6286-CD07-76C4F8DC934A" referredColumn="F251A1AD-4E2D-C902-ECCA-B1AD85583065"/>
 </associations>
 </Column>
-<Column name="individual_Id" id="0AF16FFD-7283-511A-36F4-5777F43F3D1D">
+<Column name="individual_id" id="4D7A52A8-40BD-D9C6-91FB-8F49BB691F6C">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>3E545218-3471-8347-943F-B806F259154F</generatorID>
 <ownerDesignName>eer</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="validFor" id="CAD6A539-CB41-E803-F616-E93A562B3D49">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
-<generatorID>7C6E4D22-5A1E-E394-D130-A1AE3E57C39C</generatorID>
-<ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="firstName" id="06CB9FDD-BDAB-3552-0648-6A670E587B41">
+<Column name="firstName" id="C9267C4B-B52E-15E9-2AC2-C6259B3EBB8D">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>7A3E4224-09C5-6A3E-3A26-BB39F70D5D78</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="lastName" id="E0E53A44-4861-A7A9-B4B7-3F725AE58624">
+<Column name="lastName" id="92FCBCD3-E0C6-F760-AB69-4C86177C0A66">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>3B77A800-311B-E02C-0FDB-029725E1A03C</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="655FE1FC-803D-B3B7-8B90-A7C96E1B031A">
+<Column name="email" id="D1217306-AF6E-F624-8640-21221881EB25">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>1B55AEFD-E964-2F9A-109A-572011C44F1F</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="personId" id="A5D5BFCA-868A-791E-3D3B-E83D907F819C">
+<Column name="personId" id="AB738E03-B8EE-AE84-F5CD-E166A4174F26">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>B8735B1F-1EEF-291F-B862-7DFDA6602512</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="interests" id="95FF6187-9A9E-2CAD-110A-5E1370BD4D8D">
+<Column name="interests" id="37513BDE-0155-AB93-4AC6-8AF44DE1D3E1">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>A1E376D8-1212-9B58-8B35-ACFB685065B2</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -99,9 +95,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="sessionInfo" id="7C2BD45C-09CE-55D2-2055-24FEB6582FFA">
+<Column name="sessionInfo" id="B326EE92-E19C-6396-76AA-3E755E1DF93E">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>CA1667C4-0CDE-E723-2B0D-8956A9E87CEE</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -111,9 +107,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="personInfo" id="31261777-1101-3FDA-BE47-020F98CB3ED7">
+<Column name="personInfo" id="FBC67C47-B8EA-5949-0B6C-CA14665F5375">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>3B91972D-E32E-7198-32FD-393B2643E880</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -125,49 +121,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="90CBAD3C-203C-6494-31EC-407F7C3C46B6" name="Individual_PK">
+<ind_PK_UK id="2441AC14-DC5A-D855-1140-088075B16FE3" name="Individual_PK">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
 <generatorID>99A399F3-7570-4C46-DB75-86A4EA4CD745</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6DB4BB44-262F-B6FE-1903-CF4477C07977"/>
+<colUsage columnID="AF1635D1-3332-E6EE-274A-C3847996C814"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B21F36E5-8DAC-0324-000A-FC2F1E1E75DB" name="Individual_individual_Id_UN">
+<ind_PK_UK id="31FD9D93-3266-4E61-D166-2F2891429AA0" name="Individual_PKv1">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
-<generatorID>825FD2F8-309F-0DFD-18E0-098A14F5603C</generatorID>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>B8ABBC19-7410-F6CA-EA55-FD1E80DF91DF</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0AF16FFD-7283-511A-36F4-5777F43F3D1D"/>
+<colUsage columnID="4D7A52A8-40BD-D9C6-91FB-8F49BB691F6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="45C9441B-3AC0-342C-D334-9EA600DB6118" name="Individual_PKv1">
+<ind_PK_UK id="873EB5FE-D52C-BA10-37DE-796EEC596650" name="Individual_Party_FK">
 <createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
-<generatorID>70AAC317-723A-7F47-D862-8CDAC0073A8B</generatorID>
-<ownerDesignName>eer</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0AF16FFD-7283-511A-36F4-5777F43F3D1D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D2BDBA3C-F5B7-6BEC-D313-64A68CD5B2A3" name="Individual_Party_FK">
-<createdBy>jural</createdBy>
-<createdTime>2023-07-26 11:16:43 UTC</createdTime>
-<generatorID>F73D3381-28EE-ECE5-528C-D2ABA641CD89</generatorID>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>C51FC1FE-DD05-2801-95CC-8BB2BAEA8852</generatorID>
 <ownerDesignName>eer</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6DB4BB44-262F-B6FE-1903-CF4477C07977"/>
+<colUsage columnID="AF1635D1-3332-E6EE-274A-C3847996C814"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

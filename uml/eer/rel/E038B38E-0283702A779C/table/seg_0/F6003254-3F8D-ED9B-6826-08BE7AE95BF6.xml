@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6003254-3F8D-ED9B-6826-08BE7AE95BF6" name="PartyRole">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>F72615A6-5FB4-4C33-712C-B609872119BD</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="87699103-C898-239E-4048-F64F78DFD236">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>425F2786-B912-2CF3-EF37-B3A2D4547849</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="1A3AF6CC-B097-6B90-868C-1D7563326153">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>90100104-1B7E-B33B-1596-F63DB284E361</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validFor" id="8016B018-95D6-5A4F-AAB2-E2F616D98FBB">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>15C31429-A94C-16DC-7734-466D07A810C0</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>44A5C104-9346-3CB6-D752-4BE2D9EA2F13</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partyRoleType" id="7F6EEA98-B7C9-3823-8EE3-9F51E3D01F04">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>1F25BBEB-4669-6FCB-E3AF-86A0A1BE3394</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>09A76917-6AA3-BC2B-DF7E-1777986A5E2D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E1A36107-ABA3-A468-7F09-56C4B1FF24A2">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>E5B8CB66-B50C-C1EB-A7CB-A9C5767CE3C1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party_ID" id="3F89E9E3-62B3-EEB2-788D-BD6215A00EE1">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>1EC854A8-3284-9470-CA9A-678F1F349281</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0D470A3-2235-F371-9FF7-3F735D7EBD41" referredColumn="F251A1AD-4E2D-C902-ECCA-B1AD85583065"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F66EC760-A423-8FBE-89D3-186902E1090E" name="PartyRole_PK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>07E60224-BED0-ED16-024E-70D7E907304E</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87699103-C898-239E-4048-F64F78DFD236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEC057FA-435A-7BB3-E83C-15D986211086" name="PartyRole_Party_FK">
+<createdBy>jural</createdBy>
+<createdTime>2023-07-27 15:15:10 UTC</createdTime>
+<generatorID>7F85946C-6342-5908-0688-05F8B620B0A1</generatorID>
+<ownerDesignName>eer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F89E9E3-62B3-EEB2-788D-BD6215A00EE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
