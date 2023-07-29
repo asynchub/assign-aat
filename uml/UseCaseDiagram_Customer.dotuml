@@ -1,0 +1,29 @@
+UseCaseDiagram [frame=true framecolor=grey label="UseCase Diagram Customer"] {
+  attribute usecase [fillcolor=whitesmoke]
+  actor ind as "Individual"
+  actor org as "Organization"
+  actor csr as "CSR"
+  actor csm as "CSM"
+  actor pmn as "Product Manager"
+
+  system is as "Information System" [fillcolor=yellow] {
+    usecase jrg as "Join Organization"
+    usecase tac as "Transfer Account"
+    usecase pcl as "Phone Call"
+    usecase fid as "Search"
+    usecase upd as "Update"
+    usecase crt as "Create"
+    usecase asn as "Assign"
+    usecase gac as "Grant Access"
+    usecase vew as "Viewing"
+    usecase rsc as "Research"
+    usecase eml as "Send Email"
+    usecase evl as "Evaluate"
+    usecase ngt as "Negotiate"
+    usecase apv as "Approve"
+    usecase ofr as "Offer"
+    usecase cfm as "Confirm"
+    usecase alc as "Allocate"
+    usecase dvr as "Deliver"
+  }
+}

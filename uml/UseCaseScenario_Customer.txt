@@ -1,0 +1,55 @@
+Use Case Scenario
+
+Customer Lifecycle (Service for Individual & Organization)
+
+Actors:
+Individual
+Organization
+CustomerServiceRepresentative
+CustomerServiceManager
+ProductManager
+
+Scenario A
+Individual is joining an Organization 
+Organization is initiating the transfer of Individual account onto Organization account
+CustomerServiceRepresentative is organizing the transfer:
+  Calling to Individual
+  Search the Individual in database
+  If found updating Individual profile
+  If not found creating Individual profile
+  Assign the Service for Individual according to Organization account
+Individual is granted viewer access to Service in Organization account
+Individual is reviewing the state and history of Service used within Organization account
+Organization is growing in revenue and demand for Service
+Organization is looking for upgrade of Service:
+  Researching Service upgrades in CustomerServicePortal
+  Researching Service upgrades in Media
+  Researching Service of Competitor
+  Sending email to CustomerServiceRepresentative
+CustomerServiceRepresentative is evaluating the Rank of Organization
+CustomerServiceRepresentative is negotiating requirements of Organization to ProductManager
+ProductManager is evaluating requirements and prepares Service upgrade specification
+CustomerServiceRepresentative is approving the Service upgrade offer with CustomerServiceManager
+CustomerServiceRepresentative is offering the Service upgrade to Organization
+Organization is approving the offer
+CustomerServiceManager is delivering the Service by allocating and assigning upgrades for Organization
+...
+
+Scenario B
+CustomerServiceRepresentative is offering a service to Individual
+Individual is evaluating the offer:
+  Asking questions from CustomerServiceRepresentative
+  Researching from Media and from other Individuals
+...
+
+Scenario C.1
+Individual is looking for Telecom Service:
+  Researching directly from CustomerServiceRepresentative
+  Researching from Media and from other Individuals
+...
+
+Scenario C.2
+Organization Representative is looking for Telecom Service:
+  Researching directly from CustomerServiceRepresentative
+  Researching from Media and from Individuals in other Organizations
+...
