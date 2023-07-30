@@ -28,10 +28,12 @@ Organization is looking for upgrade of Service:
   Sending email to CustomerServiceRepresentative
 CustomerServiceRepresentative is evaluating the Rank of Organization
 CustomerServiceRepresentative is negotiating requirements of Organization to ProductManager
-ProductManager is evaluating requirements and prepares Service upgrade specification
+ProductManager is evaluating requirements for Service upgrade specification
+ProductManager is developing and approving Service upgrade specification
 CustomerServiceRepresentative is approving the Service upgrade offer with CustomerServiceManager
 CustomerServiceRepresentative is offering the Service upgrade to Organization
-Organization is approving the offer
+Organization is approving the Service upgrade specification
+Organization is Confirming the Service upgrade offer
 CustomerServiceManager is delivering the Service by allocating and assigning upgrades for Organization
 ...
 
