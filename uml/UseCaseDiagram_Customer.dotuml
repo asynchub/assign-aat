@@ -1,0 +1,54 @@
+UseCaseDiagram [frame=true framecolor=grey label="UseCase Diagram | General | Customer"] {
+  attribute usecase [fillcolor=whitesmoke]
+  actor ind as "Individual"
+  actor org as "Organization" [icon=university]
+
+  system is as "Information Systems \n eService + CRM" [fillcolor=yellow] {
+    usecase jrg as "Join Organization"
+    usecase tac as "Transfer Account"
+    usecase pcl as "Phone Call"
+    usecase src as "Search"
+    usecase upd as "Update"
+    usecase crt as "Create"
+    usecase asn as "Assign Service"
+    usecase gac as "Grant Access"
+    usecase vew as "Viewing"
+    usecase rsc as "Research"
+    usecase eml as "Send Email"
+    usecase evl as "Evaluate"
+    usecase ngt as "Negotiate"
+    usecase dvp as "Develop"
+    usecase apv as "Approve"
+    usecase ofr as "Offer"
+    usecase cfm as "Confirm"
+    usecase alc as "Allocate"
+    usecase dvr as "Deliver"
+  }
+
+  actor csr as "CSR"
+  actor csm as "CSM"
+  actor pmn as "Product Manager"
+  
+  ind "0..*" -- "0..*" jrg
+  org "1" -- "0..*" tac
+  pcl "0..*" -- "1" csr
+  src "0..*" -- "1" csr
+  upd "0..*" -- "1" csr
+  crt "0..*" -- "1" csr
+  asn "0..*" -- "1" csr
+  org "1" -- "0..*" gac
+  ind "1" -- "0..*" vew
+  org "1" -- "0..*" rsc
+  org "1" -- "0..*" eml
+  org "1" -- "0..*" pcl
+  evl "0..*" -- "1" csr
+  ngt "0..*" -- "1" csr
+  evl "0..*" -- "1" pmn
+  dvp "0..*" -- "1" pmn
+  apv "0..*" -- "1" pmn
+  apv "0..*" -- "1" csm
+  ofr "0..*" -- "1" csr
+  org "1" -- "0..*" apv
+  org "1" -- "0..*" cfm
+  dvr "0..*" -- "1" csr
+}
