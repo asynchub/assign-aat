@@ -1,0 +1,8 @@
+Questions related to Architecture design
+
+* Current situation: Why to build / enhance the solution? What are main current and future use cases (in general)?
+* People from which divisions (stakeholders & users) will be directly involved in addition to Customer onboarding and Sales? Marketing, Service, Product Management, Enterprise / Management?
+* Which security limitations are across countries with storing Customer data? Can Customer data be shared across countries?
+* How many concurrent users is now and expected in future from Customers and from Personnel?
+* How much of data would be used in predictive analytics or machine learning? Will some data be used as input for generating marketing content?
+* What is the expected timeline to develop, implement, test and deploy the system?

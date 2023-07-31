@@ -1,0 +1,9 @@
+Questions related to Application Architect role at Telia
+
+* What is the main issue to resolve with common architecture and solutions for B2C & B2B Customer onboarding and Customer data management? = Why?
+* What is the state of the project? Is this starting from scratch without blueprint / action plan?
+* How many domains will be involved in addition to Customer domain? (Marketing & Sales, Service, Enterprise)
+* Which design approach is on applications?
+* Which design approach is on data?
+* What is the structure of design and implementation team now and how would it need to change (grow) for this project?
+* What would be the next mission after system is developed, implemented, tested and deployed?
